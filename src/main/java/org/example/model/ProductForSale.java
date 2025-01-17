@@ -26,6 +26,6 @@ public abstract class ProductForSale {
      public double getSalesPrice(int quantity){
         return  quantity*price;
      }
-     abstract void showDetails();
+     public abstract void showDetails();
 
 }

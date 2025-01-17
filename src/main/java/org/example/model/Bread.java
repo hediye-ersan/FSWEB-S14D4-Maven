@@ -5,6 +5,10 @@ import javax.sound.midi.Soundbank;
 public class Bread extends ProductForSale{
     private int weight;
 
+    public Bread(String type, double price, String description) {
+        super(type, price, description);
+    }
+
     public Bread(String type, double price, String description, int weight) {
         super(type, price, description);
         this.weight = weight;
