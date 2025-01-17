@@ -25,10 +25,10 @@ public class MainTest {
     Monster troll;
 
     @BeforeEach
-    void setUp() {
-        bread = new Bread("Test", 10, "Test Bread");
-        chocolate = new Chocolate("Test", 10, "Test Chocolate");
-        coke = new Coke("Test", 10, "Test Coke");
+    public void setUp() {
+        bread = new Bread("Test", 10, "Test Bread", 450);
+        chocolate = new Chocolate("Test", 10, "Test Chocolate", "square");
+        coke = new Coke("Test", 10, "Test Coke", 250);
         troll = new Troll("Shrek", 1000, 100);
     }
 
